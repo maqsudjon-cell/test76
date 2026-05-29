@@ -217,7 +217,10 @@
     .label-row { grid-template-columns: 1fr; }
     .flow-step { min-width: 100%; }
   }
-</style>
+
+    .transcript-box { margin-top: 32px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #fafafa; }
+    .transcript-box summary { padding: 12px 16px; cursor: pointer; font-weight: 600; font-size: 0.95rem; background: #f0f0f0; }
+  </style>
 </head>
 <body>
 <div class="mode-overlay open" id="modeModal">
@@ -790,5 +793,7 @@ function resetAllAnswers() { if (!confirm('Remove ALL your answers and start fre
 
 </script>
 <script src="https://maqsudjon-cell.github.io/ielts-hub/js/test-page-auto.js" defer></script>
+
+<details class="transcript-box"><summary>📖 Transcript</summary><div class="transcript-content"><p><a href="transcript-76.pdf" target="_blank">Open transcript PDF ↗</a></p></div></details>
 </body>
 </html>
